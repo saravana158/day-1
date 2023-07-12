@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+     background-image: url("https://img.freepik.com/free-photo/beautiful-luxury-outdoor-swimming-pool-hotel-resort_74190-7433.jpg?w=1060&t=st=1689048803~exp=1689049403~hmac=db1681741911fa332b7f13590ee2fb3505c77ed107c6f57cdac0621e92530e18");
+     background-size: cover;
+ }
+ .login-box {
+  margin-left:4rem;
+   width: 280px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: #ccc3a0;
+   padding: 40px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px #000;
+   color: #040303;
+ }
+ 
+ .login-box h1 {
+   color: #161111;
+   text-align: center;
+   font-size: 24px;
+   margin-top: 0;
+   margin-right: 30px;
+ }
+ 
+ .login-box p {
+   margin: 0;
+   padding: 0;
+   font-weight: bold;
+   color: #130d0d;
+ }
+ 
+ .login-box input {
+   width: 100%;
+   margin-bottom: 20px;
+ }
+ 
+ .login-box input[type="text"],
+ .login-box input[type="password"] {
+   border: none;
+   border-bottom: 1px solid #fff;
+   background: transparent;
+   outline: none;
+   height: 40px;
+   color: #fff;
+   font-size: 16px;
+ }
+ 
+ .login-box input[type="submit"] {
+   border: none;
+   outline: none;
+   height: 40px;
+   background: #fb2525;
+   color: #fff;
+   font-size: 18px;
+   border-radius: 20px;
+ }
+ 
+ .login-box input[type="submit"]:hover {
+   cursor: pointer;
+   background: #ffc107;
+   color: #000;
+ }
+ 
+ .login-box a {
+   color: #fff;
+   font-size: 14px;
+   font-weight: bold;
+   text-decoration: none;
+ }
+ 
+ .login-box a:hover {
+   text-decoration: underline;
+ }
+ 
+ .avatar {
+  margin-left: 0.5rem;
+   width: 90px;
+   height: 80px;
+   border-radius: 50%;
+   position: absolute;
+   top: -50px;
+   left: calc(50% - 50px);
+ }
+ 
+ .invit-only {
+   margin: 0px 0;
+   color: #fff;
+   font-size: 14px;
+ }
+ 
+ .invit-only label {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .invit-only label input[type="checkbox"] {
+   margin-right: 1px;
+ }
+ .referral-code {
+   color: white;
+ }
